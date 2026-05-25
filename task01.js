@@ -1,5 +1,8 @@
-function showMessage(){
+const form = document.getElementById("contactForm");
 
-  alert("Message Sent Successfully");
+form.addEventListener("submit", function(event) {
 
-}
+    event.preventDefault();
+
+    alert("Message Sent Successfully!");
+});
