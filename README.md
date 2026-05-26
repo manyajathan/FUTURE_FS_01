@@ -4,6 +4,13 @@ A sleek, responsive, single-page portfolio website designed to showcase foundati
 
 ---
 
+## 🔗 Project Links
+
+* **Live Demo:** [View Live Site](https://manyajathan.github.io/FUTURE_FS_01/)
+* **GitHub Repository:** [View Source Code](https://github.com/manyajathan/FUTURE_FS_01/edit/main/README.md)
+
+---
+
 ## ✨ Key Features
 
 * **Responsive Grid & Flexbox Layouts:** Designed with a mobile-first mindset. The skills section and form inputs dynamically shift layouts using CSS media queries when viewports scale down below `600px`.
@@ -23,14 +30,14 @@ A sleek, responsive, single-page portfolio website designed to showcase foundati
 
 ## 📁 File Structure & Implementation Details
 
-* **`index.html`**
+* **`task01.html`**
     * Establishes the document structure and typography hierarchy.
     * Houses the functional contact matrix (`<form>`) with dedicated inputs for `name`, `email`, and an auto-adjusting message box (`<textarea>`).
-* **`style.css`**
+* **`task01.css`**
     * Defines global layout rules, typography adjustments, and section-specific visual styles.
     * Injects clean left-border visual accents (`border-left: 6px solid #4a63e7`) on section headings to establish visual hierarchy.
     * Maintains layout responsiveness via media break-points for fluid cross-device support.
-* **`script.js`**
+* **`task01.js`**
     * Contains the application logic processing instructions.
     * Executes the `showMessage()` function to simulate successful form processing and feedback loops.
 
